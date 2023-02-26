@@ -18,16 +18,15 @@
 
 #navbar a {
   text-decoration: none;
-  /* color: #333; */
+  color: #333;
 }
 
 #navbar .logo {
   float: left;
-  /* display: block; */
   text-align: center;
   padding: 10px;
-  font-size: 30px;
-  color: rgb(125, 54, 201);
+  font-size: 40px;
+  color: #6753D8;
 }
 
 #navbar ul {
@@ -44,6 +43,11 @@
   display: block;
   text-align: center;
   padding: 20px;
-  color: #333;
+}
+
+#navbar ul li a:hover,
+#navbar ul li .current {
+  background-color: #c7c4d8;
+  color: #6753D8;;
 }
 
