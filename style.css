@@ -1,0 +1,49 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: #f4f4f4;
+  overflow: auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#navbar a {
+  text-decoration: none;
+  /* color: #333; */
+}
+
+#navbar .logo {
+  float: left;
+  /* display: block; */
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  color: rgb(125, 54, 201);
+}
+
+#navbar ul {
+  float: right;
+  
+}
+
+#navbar ul li {
+  list-style: none;
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
