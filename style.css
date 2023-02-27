@@ -51,3 +51,13 @@
   color: #6753D8;;
 }
 
+#home-info .home-content {
+  float: left;
+  border: 1px solid black;
+}
+
+#home-info .home-display {
+  float: right;
+  border: 1px solid black;
+}
+
