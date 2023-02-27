@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .text-main {
   color: #6753D8;
@@ -61,17 +64,18 @@
 }
 
 #home-info {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   height: 450px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #home-info .home-content {
   float: left;
-  width: 50%;
+  width: 35%;
   height: 100%;
-  padding: 20px;
-  border: 1px solid black;
+  padding: 30px;
+  
+  /* border: 1px solid black; */
 }
 
 #home-info .home-content .fx {
@@ -80,8 +84,7 @@
 
 #home-info .home-display {
   float: right;
-  width: 50%;
-  height: 100%;
+  width: 65%;
 }
 
 #home-info .home-display img {
@@ -98,4 +101,10 @@
 .download {
   padding-top: 25px;
 }
+
+.download p {
+  padding-bottom: 10px;
+}
+
+
 
